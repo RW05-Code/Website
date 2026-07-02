@@ -1,10 +1,52 @@
-.body{
+body{
     background-color:aliceblue;
 }
-.header{
-    background-color:black;
-    text-align:center;
+#con{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap:wrap;
 }
-.li{
+#con1{
+    flex-basis:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+    margin:0px;
+    padding:0px;
+}
+img{
+    display:flow-root;
+    border: 10px solid black;
+    border-radius:4px;
+}
+div h1{
+    margin-top:0px;
+    padding:5px;
+}
+ul{
+  padding-left: 20px;
+}
+ol{
+    text-align:left;
+}
+li{
     font-size:1.2em;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 57%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: left;
 }
