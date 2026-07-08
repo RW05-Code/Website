@@ -1,5 +1,5 @@
 .navbar a:hover{
-    background-color:hsl(0, 0%, 45%);
+    background-color:hsl(0, 0%, 39%);
 }
 #con{
     display: flex;
@@ -19,21 +19,32 @@ img{
     display:flow-root;
     border: 10px solid black;
     border-radius:4px;
-    box-shadow: 5px 4px 7px rgb(163, 163, 163);
+    box-shadow: 5px 4px 4px oklab(80.78% 0 -0.00009);
+    margin-top:10px;
 }
 div h1{
     margin-top:0px;
     padding:5px;
     text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+div a{
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    font-size:0.55em;
 }
 ul{
   padding-left: 20px;
+}
+li:hover{
+    background-color:hsl(0, 0%, 77%);
 }
 ol{
     text-align:left;
 }
 li{
-    font-size:1.2em;
+    font-size:1.25em;
 }
 .navbar ul{
     list-style-type: none;
@@ -45,18 +56,25 @@ li{
 .navbar a{
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     display: block;
     text-align: center;
 }
 .navbar li{
     float: left;
-}
-#link{
-    text-decoration:none;
-    font-size:0.01em;
-    display:flow-root;
+    text-shadow:2px 2px 2px hsl(0, 0%, 43%) ;
 }
 body{
     background-color:rgb(243, 243, 243);
+}
+body::selection{
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+pre{
+    font-size:1.15em;
+    text-align:center;
+}
+div{
+    color:white;
 }
